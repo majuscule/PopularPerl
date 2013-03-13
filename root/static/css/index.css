@@ -1,3 +1,7 @@
+body {
+  background-image: url('/static/images/gray_jean.png');
+}
+
 .chart rect {
   stroke: white;
   fill: #4e5d85;
