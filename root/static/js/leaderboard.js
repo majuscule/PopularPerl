@@ -53,9 +53,9 @@ chart.selectAll("text")
     .attr("x", 10)
     .attr("y", function(d, i) { return i * 50 - 50; })
     .attr("dy", "5em")
-    .text(function(d, i) { return distributions[i]; })
     .on("click", function(d,i) { linkToCPAN(i); })
     .on("mouseover", function(d,i) { highlight(i, 1); })
     .on("mouseout", function(d,i) { highlight(i, 0); });
+    .text(function(d, i) { return distributions[i]; })
 
 }

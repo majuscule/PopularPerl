@@ -30,7 +30,7 @@ The root page (/)
 
 sub index :Path :Args(0) {
     my ( $self, $c ) = @_;
-    my @leaderboard = $c->model('CPAN')->distribution_leaderboard;
+    my @leaderboard = $c->model('MetaCPAN')->distribution_leaderboard;
     $c->stash(template => 'site/index.tt', leaderboard => @leaderboard);
 }
 
