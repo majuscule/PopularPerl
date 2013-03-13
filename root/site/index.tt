@@ -1,0 +1,11 @@
+<h1>some (of the most) popular perl:</h1>
+
+<script src="/static/js/d3.v3.min.js"></script>
+<script src="/static/js/leaderboard.js"></script>
+<script>
+var data = [];
+[% FOREACH distribution IN leaderboard %]
+data.push({ 'distribution' : '[% distribution.term %]', 'votes' : [% distribution.count %]});
+[% END %]
+draw(data);
+</script>

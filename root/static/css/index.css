@@ -1,0 +1,10 @@
+.chart rect {
+  stroke: white;
+  fill: #4e5d85;
+  cursor: pointer;
+}
+
+.chart text {
+  fill: white;
+  cursor: pointer;
+}
