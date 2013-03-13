@@ -30,8 +30,9 @@ The root page (/)
 
 sub index :Path :Args(0) {
     my ( $self, $c ) = @_;
-    my @leaderboard = $c->model('MetaCPAN')->distribution_leaderboard;
+    my @leaderboard = $c->model('MetaCPAN')->distribution_leaderboard($c);
     $c->stash(template => 'site/index.tt', leaderboard => @leaderboard);
+    $c->forward('View::HTML');
 }
 
 =head2 default
