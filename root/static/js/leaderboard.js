@@ -55,7 +55,7 @@ chart.selectAll("text")
     .attr("dy", "5em")
     .on("click", function(d,i) { linkToCPAN(i); })
     .on("mouseover", function(d,i) { highlight(i, 1); })
-    .on("mouseout", function(d,i) { highlight(i, 0); });
-    .text(function(d, i) { return distributions[i]; })
+    .on("mouseout", function(d,i) { highlight(i, 0); })
+    .text(function(d, i) { return distributions[i]; });
 
 }
