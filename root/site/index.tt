@@ -9,3 +9,6 @@ data.push({ 'distribution' : '[% distribution.term %]', 'votes' : [% distributio
 [% END %]
 draw(data);
 </script>
+
+<h5>Written by <a href="https://dylansserver.com">dylan@dylansserver.com</a>.<br>
+    Code open source <a href="https://github.com/nospampleasemam/PopularPerl">here</a>.</h5>
