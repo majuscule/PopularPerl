@@ -22,8 +22,34 @@
 
 body {
   background-image: url('/static/images/gray_jean.png');
-  font-family: 'MuseoSlab500';
+  font-family: 'InconsolataMedium';
 }
+
+h1 {
+  background-color: #4e5d85;
+  color: white;
+  padding: 10px;
+  width: 500px;
+}
+
+#index_footer {
+  margin-top: 50px;
+}
+
+h3 {
+  background-color: #4e5d85;
+  color: white;
+  padding: 10px;
+  width: 450px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  size: 90%;
+}
+
+h3 a {
+  color: white;
+}
+
 
 .chart rect {
   stroke: white;
@@ -33,6 +59,5 @@ body {
 
 .chart text {
   fill: white;
-  font-family: 'InconsolataMedium';
   cursor: pointer;
 }

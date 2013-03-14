@@ -1,4 +1,4 @@
-<h1>some (of the most) popular perl:</h1>
+<h1 style="">some (of the most)<br>popular perl:</h1>
 
 <script src="/static/js/d3.v3.min.js"></script>
 <script src="/static/js/leaderboard.js"></script>
@@ -10,5 +10,7 @@ data.push({ 'distribution' : '[% distribution.term %]', 'votes' : [% distributio
 draw(data);
 </script>
 
-<h5>Written by <a href="https://dylansserver.com">dylan@dylansserver.com</a>.<br>
-    Code open source <a href="https://github.com/nospampleasemam/PopularPerl">here</a>.</h5>
+<div id="index_footer">
+  <h3>this page written by <a href="https://dylansserver.com">dylan@dylansserver.com</a></h3>
+  <h3 style="width:300px;">code open source <a href="https://github.com/nospampleasemam/PopularPerl">here</a></h3>
+</div>
